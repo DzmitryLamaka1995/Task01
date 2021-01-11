@@ -5,24 +5,24 @@ import java.util.Scanner;
 public class Task15 {
 
 	public static void main(String[] args) {
-		//15. Найти НОД двух целых положительных чисел
+		//15. РќР°Р№С‚Рё РќРћР” РґРІСѓС… С†РµР»С‹С… РїРѕР»РѕР¶РёС‚РµР»СЊРЅС‹С… С‡РёСЃРµР»
 		
 		int a;
 		int b;
 		int temp;
 		@SuppressWarnings("resource")
 		Scanner sc = new Scanner(System.in);
-		System.out.println("Введите первое число!");
+		System.out.println("Р’РІРµРґРёС‚Рµ РїРµСЂРІРѕРµ С‡РёСЃР»Рѕ!");
 		while (!sc.hasNextInt()) {
-			System.out.println("Это не число");
+			System.out.println("Р­С‚Рѕ РЅРµ С‡РёСЃР»Рѕ");
 			sc.next();
 
 		}
 		a = sc.nextInt();
 
-		System.out.println("Введите второе число!");
+		System.out.println("Р’РІРµРґРёС‚Рµ РІС‚РѕСЂРѕРµ С‡РёСЃР»Рѕ!");
 		while (!sc.hasNextInt()) {
-			System.out.println("Это не число");
+			System.out.println("Р­С‚Рѕ РЅРµ С‡РёСЃР»Рѕ");
 			sc.next();
 
 		}
@@ -35,7 +35,7 @@ public class Task15 {
 		while (temp != 0) {
 
 			if ((a % temp == 0) & (b % temp == 0)) {
-				System.out.println("НОД для чисел " + a + " и " + b + " равен " + temp);
+				System.out.println("РќРћР” РґР»СЏ С‡РёСЃРµР» " + a + " Рё " + b + " СЂР°РІРµРЅ " + temp);
 				return;
 			} else {
 				temp = temp - 1;

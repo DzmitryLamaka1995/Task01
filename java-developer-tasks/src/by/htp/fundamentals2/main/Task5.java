@@ -5,12 +5,12 @@ import java.util.Random;
 public class Task5 {
 
 	public static void main(String[] args) {
-		// 5. Дана последовательность чисел а1 ,а2 ,..., ап. Указать наименьшую длину
-		// числовой оси, содержащую все эти числа.
+		// 5. Р”Р°РЅР° РїРѕСЃР»РµРґРѕРІР°С‚РµР»СЊРЅРѕСЃС‚СЊ С‡РёСЃРµР» Р°1 ,Р°2 ,..., Р°Рї. РЈРєР°Р·Р°С‚СЊ РЅР°РёРјРµРЅСЊС€СѓСЋ РґР»РёРЅСѓ
+		// С‡РёСЃР»РѕРІРѕР№ РѕСЃРё, СЃРѕРґРµСЂР¶Р°С‰СѓСЋ РІСЃРµ СЌС‚Рё С‡РёСЃР»Р°.
 
 		int[] mas = new int[10];
 		createMas(mas);
-		System.out.println("Созданный массив :");
+		System.out.println("РЎРѕР·РґР°РЅРЅС‹Р№ РјР°СЃСЃРёРІ :");
 		printMas(mas);
 		int min = mas[0];
 		int max = mas[0];
@@ -23,7 +23,7 @@ public class Task5 {
 
 		}
 		System.out.println();
-		System.out.println("Наименьшая длина числовой оси : от " + min + " до " + max);
+		System.out.println("РќР°РёРјРµРЅСЊС€Р°СЏ РґР»РёРЅР° С‡РёСЃР»РѕРІРѕР№ РѕСЃРё : РѕС‚ " + min + " РґРѕ " + max);
 	}
 
 	public static void createMas(int[] mas) {

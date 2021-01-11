@@ -3,7 +3,7 @@ package by.htp.fundamentals1.main;
 public class Task7 {
 
 	public static void main(String[] args) {
-		// 7. Подсчитать количество отрицательных среди чисел а, b, с.
+		// 7. РџРѕРґСЃС‡РёС‚Р°С‚СЊ РєРѕР»РёС‡РµСЃС‚РІРѕ РѕС‚СЂРёС†Р°С‚РµР»СЊРЅС‹С… СЃСЂРµРґРё С‡РёСЃРµР» Р°, b, СЃ.
 
 		double a = -1;
 		double b = 0;
@@ -22,7 +22,7 @@ public class Task7 {
 		if (c < 0) {
 			count = count + 1;
 		}
-		System.out.println("Количество отрицательных чисел = " + count);
+		System.out.println("РљРѕР»РёС‡РµСЃС‚РІРѕ РѕС‚СЂРёС†Р°С‚РµР»СЊРЅС‹С… С‡РёСЃРµР» = " + count);
 
 	}
 

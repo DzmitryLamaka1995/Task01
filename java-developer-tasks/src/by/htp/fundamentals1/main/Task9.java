@@ -3,7 +3,7 @@ package by.htp.fundamentals1.main;
 public class Task9 {
 
 	public static void main(String[] args) {
-		//9. Вычислить значение функции:
+		//9. Р’С‹С‡РёСЃР»РёС‚СЊ Р·РЅР°С‡РµРЅРёРµ С„СѓРЅРєС†РёРё:
 		
 		double x = 1;
 		double fx;

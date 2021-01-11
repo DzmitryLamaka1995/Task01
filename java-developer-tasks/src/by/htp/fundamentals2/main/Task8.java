@@ -5,15 +5,15 @@ import java.util.Random;
 public class Task8 {
 
 	public static void main(String[] args) {
-		// 8. Даны целые числа а1 ,а2 ,..., аn . Вывести на печать только те числа, для
-		// которых аi > i.
+		// 8. Р”Р°РЅС‹ С†РµР»С‹Рµ С‡РёСЃР»Р° Р°1 ,Р°2 ,..., Р°n . Р’С‹РІРµСЃС‚Рё РЅР° РїРµС‡Р°С‚СЊ С‚РѕР»СЊРєРѕ С‚Рµ С‡РёСЃР»Р°, РґР»СЏ
+		// РєРѕС‚РѕСЂС‹С… Р°i > i.
 
 		int[] mas = new int[10];
 		createMas(mas);
-		System.out.println("Созданный массив :");
+		System.out.println("РЎРѕР·РґР°РЅРЅС‹Р№ РјР°СЃСЃРёРІ :");
 		printMas(mas);
 		System.out.println();
-		System.out.println("Итог: ");
+		System.out.println("РС‚РѕРі: ");
 		for (int i = 0; i < mas.length; i++) {
 			if (mas[i] > i) {
 				System.out.print(mas[i] + " ");

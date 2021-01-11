@@ -3,8 +3,8 @@ package by.htp.fundamentals1.main;
 public class Task1 {
 
 	public static void main(String[] args) {
-		// Вычислить значение выражения по формуле (все переменные принимают
-		// действительные значения)
+		// Р’С‹С‡РёСЃР»РёС‚СЊ Р·РЅР°С‡РµРЅРёРµ РІС‹СЂР°Р¶РµРЅРёСЏ РїРѕ С„РѕСЂРјСѓР»Рµ (РІСЃРµ РїРµСЂРµРјРµРЅРЅС‹Рµ РїСЂРёРЅРёРјР°СЋС‚
+		// РґРµР№СЃС‚РІРёС‚РµР»СЊРЅС‹Рµ Р·РЅР°С‡РµРЅРёСЏ)
 
 		double a = -1;
 		double b = 10;
@@ -14,7 +14,7 @@ public class Task1 {
 		resSqrt = Math.sqrt(Math.pow(b, 2) + 4 * a * c);
 
 		if (Double.isNaN(resSqrt) || a == 0) {
-			System.out.println("Вычисление невозможно");
+			System.out.println("Р’С‹С‡РёСЃР»РµРЅРёРµ РЅРµРІРѕР·РјРѕР¶РЅРѕ");
 			return;
 		}
 

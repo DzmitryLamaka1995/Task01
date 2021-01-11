@@ -5,12 +5,12 @@ import java.util.Random;
 public class Task7 {
 
 	public static void main(String[] args) {
-		// 7. Даны действительные числа а1 ,а2 ,..., аn . Поменять местами наибольший и
-		// наименьший элементы.
+		// 7. Р”Р°РЅС‹ РґРµР№СЃС‚РІРёС‚РµР»СЊРЅС‹Рµ С‡РёСЃР»Р° Р°1 ,Р°2 ,..., Р°n . РџРѕРјРµРЅСЏС‚СЊ РјРµСЃС‚Р°РјРё РЅР°РёР±РѕР»СЊС€РёР№ Рё
+		// РЅР°РёРјРµРЅСЊС€РёР№ СЌР»РµРјРµРЅС‚С‹.
 
 		int[] mas = new int[10];
 		createMas(mas);
-		System.out.println("Созданный массив :");
+		System.out.println("РЎРѕР·РґР°РЅРЅС‹Р№ РјР°СЃСЃРёРІ :");
 		printMas(mas);
 		int min = mas[0];
 		int minPos = 0;
@@ -31,7 +31,7 @@ public class Task7 {
 		mas[minPos] = mas[maxPos];
 		mas[maxPos] = temp;
 		System.out.println();
-		System.out.println("Меняем местами максимальное значение " + max + " на минимальное значение " + min);
+		System.out.println("РњРµРЅСЏРµРј РјРµСЃС‚Р°РјРё РјР°РєСЃРёРјР°Р»СЊРЅРѕРµ Р·РЅР°С‡РµРЅРёРµ " + max + " РЅР° РјРёРЅРёРјР°Р»СЊРЅРѕРµ Р·РЅР°С‡РµРЅРёРµ " + min);
 		printMas(mas);
 
 	}

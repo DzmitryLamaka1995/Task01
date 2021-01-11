@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Task14 {
 
 	public static void main(String[] args) {
-		//14. Требуется определить факториал числа, которое ввел пользователь.
+		//14. РўСЂРµР±СѓРµС‚СЃСЏ РѕРїСЂРµРґРµР»РёС‚СЊ С„Р°РєС‚РѕСЂРёР°Р» С‡РёСЃР»Р°, РєРѕС‚РѕСЂРѕРµ РІРІРµР» РїРѕР»СЊР·РѕРІР°С‚РµР»СЊ.
 		
 
 		@SuppressWarnings("resource")
@@ -13,9 +13,9 @@ public class Task14 {
 		int x;
 		int fact = 1;
 		do {
-			System.out.println("Введите любое положительное число!");
+			System.out.println("Р’РІРµРґРёС‚Рµ Р»СЋР±РѕРµ РїРѕР»РѕР¶РёС‚РµР»СЊРЅРѕРµ С‡РёСЃР»Рѕ!");
 			while (!sc.hasNextInt()) {
-				System.out.println("Это не число");
+				System.out.println("Р­С‚Рѕ РЅРµ С‡РёСЃР»Рѕ");
 				sc.next();
 
 			}
@@ -23,7 +23,7 @@ public class Task14 {
 		} while (x < 0);
 
 		if (x == 0 || x == 1) {
-			System.out.println("Факториал: " + x + "! = 1");
+			System.out.println("Р¤Р°РєС‚РѕСЂРёР°Р»: " + x + "! = 1");
 			return;
 
 		}
@@ -32,7 +32,7 @@ public class Task14 {
 			fact = fact * i;
 
 		}
-		System.out.println("Факториал: " + x + "! = " + fact);
+		System.out.println("Р¤Р°РєС‚РѕСЂРёР°Р»: " + x + "! = " + fact);
 
 	}
 

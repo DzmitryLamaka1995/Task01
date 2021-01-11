@@ -5,14 +5,14 @@ import java.util.Random;
 public class Task4 {
 
 	public static void main(String[] args) {
-		// 4. Дана последовательность натуральных чисел а1 , а2 ,..., ап. Создать массив
-		// из четных чисел этой последовательности.
-		// Если таких чисел нет, то вывести сообщение об этом факте.
+		// 4. Р”Р°РЅР° РїРѕСЃР»РµРґРѕРІР°С‚РµР»СЊРЅРѕСЃС‚СЊ РЅР°С‚СѓСЂР°Р»СЊРЅС‹С… С‡РёСЃРµР» Р°1 , Р°2 ,..., Р°Рї. РЎРѕР·РґР°С‚СЊ РјР°СЃСЃРёРІ
+		// РёР· С‡РµС‚РЅС‹С… С‡РёСЃРµР» СЌС‚РѕР№ РїРѕСЃР»РµРґРѕРІР°С‚РµР»СЊРЅРѕСЃС‚Рё.
+		// Р•СЃР»Рё С‚Р°РєРёС… С‡РёСЃРµР» РЅРµС‚, С‚Рѕ РІС‹РІРµСЃС‚Рё СЃРѕРѕР±С‰РµРЅРёРµ РѕР± СЌС‚РѕРј С„Р°РєС‚Рµ.
 
 		int[] array = new int[10];
 		int temp = 0;
 		createMas(array);
-		System.out.println("Созданный массив :");
+		System.out.println("РЎРѕР·РґР°РЅРЅС‹Р№ РјР°СЃСЃРёРІ :");
 		printMas(array);
 		int[] arrayTemp = new int[array.length];
 		for (int i = 0; i < array.length; i++) {
@@ -26,14 +26,14 @@ public class Task4 {
 			}
 		}
 		if (temp == 0) {
-			System.out.println("В данном массиве нет четных чисел");
+			System.out.println("Р’ РґР°РЅРЅРѕРј РјР°СЃСЃРёРІРµ РЅРµС‚ С‡РµС‚РЅС‹С… С‡РёСЃРµР»");
 			return;
 		}
 
 		int[] arrayPos = new int[temp];
 		System.arraycopy(arrayTemp, 0, arrayPos, 0, temp);
 		System.out.println();
-		System.out.println("Массив из четных чисел :");
+		System.out.println("РњР°СЃСЃРёРІ РёР· С‡РµС‚РЅС‹С… С‡РёСЃРµР» :");
 
 		printMas(arrayPos);
 

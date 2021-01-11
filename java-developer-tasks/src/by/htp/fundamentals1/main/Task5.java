@@ -3,16 +3,16 @@ package by.htp.fundamentals1.main;
 public class Task5 {
 
 	public static void main(String[] args) {
-		//5. Составить программу: определения наименьшего из двух чисел а и b.
+		//5. РЎРѕСЃС‚Р°РІРёС‚СЊ РїСЂРѕРіСЂР°РјРјСѓ: РѕРїСЂРµРґРµР»РµРЅРёСЏ РЅР°РёРјРµРЅСЊС€РµРіРѕ РёР· РґРІСѓС… С‡РёСЃРµР» Р° Рё b.
 		
 		double a = 5;
 		double b = 4;
 		if (a == b) {
-			System.out.println("Числа равны");
+			System.out.println("Р§РёСЃР»Р° СЂР°РІРЅС‹");
 		} else if (a < b) {
-			System.out.println("Наименьшее число = " + a);
+			System.out.println("РќР°РёРјРµРЅСЊС€РµРµ С‡РёСЃР»Рѕ = " + a);
 		} else {
-			System.out.println("Наименьшее число = " + b);
+			System.out.println("РќР°РёРјРµРЅСЊС€РµРµ С‡РёСЃР»Рѕ = " + b);
 		}
 	}
 

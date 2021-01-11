@@ -3,7 +3,7 @@ package by.htp.fundamentals1.main;
 public class Task11 {
 
 	public static void main(String[] args) {
-		// 11. Вычислить значения функции на отрезке [а,b] c шагом h:
+		// 11. Р’С‹С‡РёСЃР»РёС‚СЊ Р·РЅР°С‡РµРЅРёСЏ С„СѓРЅРєС†РёРё РЅР° РѕС‚СЂРµР·РєРµ [Р°,b] c С€Р°РіРѕРј h:
 		int a = -3;
 		int b = 4;
 		double h = 0.25;
